@@ -25,13 +25,17 @@ To see your changes, just refresh the app web page.
 
 To launch the container type
 
-* docker-compose up
+Build the Docker image:
+
+docker compose build
+
+Start the service using Docker Compose:
+
+docker compose up
 
 ### Demo application usage ###
 
 Assign your licence token and contract definition id to the corresponding variables defined at the top of the index file.
-
-build the docker image
 
 Launch the container
 
@@ -50,4 +54,3 @@ Sign contract should be clicked after having selected a signatory in the combo b
 Get signed contract should be clicked after all the signatories have signed.
 
 Otherwise, you wil get error messages.
-"# API-integration" 
