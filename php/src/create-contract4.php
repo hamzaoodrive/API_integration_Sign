@@ -97,7 +97,7 @@ $payload = [
 try {
     $response = $client->request(
         'POST',
-        "$url/contracts/allinone?start=false",
+        "$url/contracts/allinone?start=true",
         $payload
     );
 
