@@ -24,11 +24,7 @@ try {
         // Construct the payload
         $payload = [
             "recipient_id" => $contractor_id,
-            "webhook_urls" => [
-                "success" => "https://www.google.com/",
-                "failure" => "https://www.bing.com/"
-            ],
-            "options" => [
+                "options" => [
                 "duration_in_minutes" => 15,
                 "hide_header" => true,
                 "enable_iframe" => true
