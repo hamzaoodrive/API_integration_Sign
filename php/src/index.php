@@ -17,16 +17,16 @@
 <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <style>
-        body {
-            background-image: url('https://www.oodrive.com/wp-content/uploads/2022/01/fond-business-card-1-2-2048x210.png');
-            background-repeat: no-repeat;
-            background-size: 1400px;
-            background-position: center bottom;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 30px;
-            background-attachment: fixed;
-        }
+       body {
+    background-image: url('https://www.oodrive.com/wp-content/uploads/2022/01/fond-business-card-1-2-2048x210.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* Adjusted property */
+    background-position: center bottom;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    background-attachment: fixed;
+}
 
         img {
             width: 1000px;
